@@ -7,16 +7,16 @@ import org.json.simple.JSONObject;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class Login {
-    protected static String url = "https://altashop-api.fly.dev/api/auth/";
+    protected static String url = "http://34.101.193.55:8080/api/v1/";
     @Step("I have valid credentials")
     public String iHaveValidCredentials(){
-        return url + "login";
+        return url + "auth/login";
     }
     @Step("I submit a POST request to {string} with email {string} and password {string}")
     public void iSubmitAPOSTRequestToWithEmailAndPassword(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "riskash123@gmail.com");
-        requestBody.put("password", "Riskaya123");
+        requestBody.put("email", "isan22@gmail.com");
+        requestBody.put("password", "isanAja22");
 
         SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).post(iHaveValidCredentials());
     }
