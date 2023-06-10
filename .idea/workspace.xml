@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83aedfb8-f62a-4225-a113-8905f385d6cd" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Auth/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/CreateOffice.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/GetListOffice.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/GetOfficeDetail.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/AuthSteps.java" afterDir="false" />
@@ -59,7 +60,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Automation_Test_API"
+    "last_opened_file_path": "D:/RestAssured"
   }
 }]]></component>
   <component name="RecentsManager">

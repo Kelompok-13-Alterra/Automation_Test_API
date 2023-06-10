@@ -32,9 +32,17 @@ public class AuthSteps {
     public void iSubmitAPOSTRequestToWithEmailAndIncorrectPassword(String arg0, String arg1, String arg2) {
         login.iSubmitAPOSTRequestToWithEmailAndIncorrectPassword();
     }
+    @When("I submit a GET request to {string} with email {string} and incorrect password {string}")
+    public void iSubmitAGETRequestToWithEmailAndIncorrectPassword(String arg0, String arg1, String arg2) {
+        login.iSubmitAGETRequestToWithEmailAndIncorrectPassword();
+    }
     @Then("I receive valid HTTP response code {int} for login")
     public void iReceiveValidHTTPResponseCodeForLogin(int arg0) {
         login.iReceiveValidHTTPResponseCodeForLogin();
     }
 
+    @Then("I receive valid HTTP response code {int} for invalid token")
+    public void iReceiveValidHTTPResponseCodeForInvalidToken(int arg0) {login.iReceiveValidHTTPResponseCodeForInvalidToken();
+
+    }
 }

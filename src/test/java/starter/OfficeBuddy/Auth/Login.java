@@ -7,7 +7,7 @@ import org.json.simple.JSONObject;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class Login {
-    protected static String url = "http://34.101.193.55:8080/api/v1/";
+    protected static String url = "https://api.officebuddy.space/api/v1/";
     @Step("I have valid credentials")
     public String iHaveValidCredentials(){
         return url + "auth/login";
@@ -15,8 +15,8 @@ public class Login {
     @Step("I submit a POST request to {string} with email {string} and password {string}")
     public void iSubmitAPOSTRequestToWithEmailAndPassword(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "testi123@gmail.com");
-        requestBody.put("password", "testi123");
+        requestBody.put("email", "testingg111@gmail.com");
+        requestBody.put("password", "test123");
 
         SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).post(iHaveValidCredentials());
     }
@@ -36,6 +36,14 @@ public class Login {
 
         SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).post(iHaveValidCredentials());
     }
+    @Step("I submit a GET request to {string} with email {string} and incorrect password {string}")
+    public void iSubmitAGETRequestToWithEmailAndIncorrectPassword(){
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("email", "testingg111@gmail.com");
+        requestBody.put("password", "test123");
+
+        SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString()).get(iHaveValidCredentials());
+    }
 
     @Step("I receive valid HTTP response code Login {int}")
     public void iShouldGetAResponseCode(){
@@ -44,5 +52,9 @@ public class Login {
     @Step("I receive valid HTTP response code {int} for login")
     public void iReceiveValidHTTPResponseCodeForLogin(){
         restAssuredThat(response -> response.statusCode(500));
+    }
+    @Step("I receive valid HTTP response code {int} for invalid token")
+    public void iReceiveValidHTTPResponseCodeForInvalidToken(){
+        restAssuredThat(response -> response.statusCode(404));
     }
 }
