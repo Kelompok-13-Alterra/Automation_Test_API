@@ -9,13 +9,17 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/CreateOffice.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/GetListOffice.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/GetOfficeDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Widget/GetDashboardWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Widget/GetOfficeWidget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/midtrans/MidTransactions.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/AuthSteps.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/MidTransactionSteps.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/OfficeSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/WidgetSteps.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/api/authentication.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/api/midtransTransaction.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/api/office.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/api/widget.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/UserSteps.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/starter/user/Delete.java" beforeDir="false" />
