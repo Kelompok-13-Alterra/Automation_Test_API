@@ -11,6 +11,8 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/GetOfficeDetail.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Widget/GetDashboardWidget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Widget/GetOfficeWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Widget/GetRevenueWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Widget/GetUserWidget.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/midtrans/MidTransactions.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/AuthSteps.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/MidTransactionSteps.java" afterDir="false" />
@@ -67,7 +69,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/RestAssred"
+    "last_opened_file_path": "D:/Automation_Test_Web"
   }
 }]]></component>
   <component name="RecentsManager">
