@@ -6,6 +6,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
 import starter.OfficeBuddy.Office.CreateOffice;
+import starter.OfficeBuddy.Office.DeleteOffice;
 import starter.OfficeBuddy.Office.GetListOffice;
 import starter.OfficeBuddy.Office.GetOfficeDetail;
 
@@ -22,13 +23,11 @@ public class OfficeSteps {
     DeleteOffice deleteOffice;
 
     @Given("I set GET endpoints")
-    public void iSetGETEndpoints()
-    {
+    public void iSetGETEndpoints() {
         getListOffice.GetApiEndpoint();
     }
     @When("I send GET HTTP request")
-    public void iSendGETHTTPRequest()
-    {
+    public void iSendGETHTTPRequest() {
         getListOffice.GetHttpRequest();
     }
     @Then("I receive valid HTTP response code {int}")
@@ -36,18 +35,15 @@ public class OfficeSteps {
         getListOffice.validateHttpResponseCode200();
     }
     @And("I receive valid data for all office")
-    public void iReceiveValidDataForAllOffice()
-    {
+    public void iReceiveValidDataForAllOffice() {
         getListOffice.validateDataDetailOffice();
     }
     @Given("I set GET endpoints by id")
-    public void iSetGETEndpointsById()
-    {
+    public void iSetGETEndpointsById() {
         getOfficeDetail.GetApiEndpointById();
     }
     @When("I send GET HTTP request by id")
-    public void iSendGETHTTPRequestById()
-    {
+    public void iSendGETHTTPRequestById() {
         getOfficeDetail.GetHttpRequestById();
     }
     @Then("I receive valid HTTP response code {int} for get id detail office")
@@ -56,8 +52,7 @@ public class OfficeSteps {
     }
 
     @And("I receive valid data for id office")
-    public void iReceiveValidDataForIdOffice()
-    {
+    public void iReceiveValidDataForIdOffice() {
         getOfficeDetail.iReceiveValidDataForIdOffice();
     }
 
@@ -73,66 +68,52 @@ public class OfficeSteps {
     }
 
     @When("I send POST HTTP request with input invalid data for create")
-    public void iSendPOSTHTTPRequestWithInputInvalidDataForCreate()
-    {
-        createOffice.iSendPOSTHTTPRequestWithInputInvalidDataForCreate();
+    public void iSendPOSTHTTPRequestWithInputInvalidDataForCreate() { createOffice.iSendPOSTHTTPRequestWithInputInvalidDataForCreate();
     }
     @When("I send PUT HTTP request to invalid endpoints for create")
-    public void iSendPUTHTTPRequestToInvalidEndpointsForCreate()
-    {
-        createOffice.iSendPUTHTTPRequestToInvalidEndpointsForCreate();
+    public void iSendPUTHTTPRequestToInvalidEndpointsForCreate() { createOffice.iSendPUTHTTPRequestToInvalidEndpointsForCreate();
     }
     @When("I send POST HTTP request with input invalid token for create")
-    public void iSendPOSTHTTPRequestWithInputInvalidTokenForCreate()
-    {
-        createOffice.iSendPOSTHTTPRequestWithInputInvalidTokenForCreate();
+    public void iSendPOSTHTTPRequestWithInputInvalidTokenForCreate() { createOffice.iSendPOSTHTTPRequestWithInputInvalidTokenForCreate();
+
     }
 
     @Then("I receive valid HTTP response code {int} for create office")
-    public void iReceiveValidHTTPResponseCodeForCreateOffice(int arg0)
-    {
+    public void iReceiveValidHTTPResponseCodeForCreateOffice(int arg0) {
         createOffice.iReceiveValidHTTPResponseCodeForCreateOffice(201);
     }
 
     @And("I receive valid data for create office")
-    public void iReceiveValidDataForCreateOffice()
-    {
+    public void iReceiveValidDataForCreateOffice() {
         createOffice.iReceiveValidDataForCreateOffice();
     }
 
 
     @Then("I receive valid HTTP response code {int} for invalid data to create")
-    public void iReceiveValidHTTPResponseCodeForInvalidDataToCreate(int arg0)
-    {
-        createOffice.iReceiveValidHTTPResponseCodeForInvalidDataToCreate();
+    public void iReceiveValidHTTPResponseCodeForInvalidDataToCreate(int arg0) { createOffice.iReceiveValidHTTPResponseCodeForInvalidDataToCreate();
     }
 
 
     @Then("I receive valid HTTP response code {int} for invalid endpoints to create office")
-    public void iReceiveValidHTTPResponseCodeForInvalidEndpointsToCreateOffice(int arg0)
-    {
-        createOffice.iReceiveValidHTTPResponseCodeForInvalidEndpointsToCreateOffice();
+    public void iReceiveValidHTTPResponseCodeForInvalidEndpointsToCreateOffice(int arg0) { createOffice.iReceiveValidHTTPResponseCodeForInvalidEndpointsToCreateOffice();
     }
 
 
     @Then("I receive valid HTTP response code {int} to create")
-    public void iReceiveValidHTTPResponseCodeToCreate(int arg0)
-    {
-        createOffice.iReceiveValidHTTPResponseCodeToCreate();
+    public void iReceiveValidHTTPResponseCodeToCreate(int arg0) { createOffice.iReceiveValidHTTPResponseCodeToCreate();
     }
 
- // Masih error bagian set dll
-    @Given("I set DELETE api endpoint")
-    public void setDeleteApiEndpoints(){
-        deleteOffice.setDeleteApiEndpoints();
-    }
-    @When("I set DELETE HTTP request")
-    public void sendDeleteApiEndpoints(){
-        deleteOffice.sendDeleteHttpRequest();
-    }
-    @Then("I receive valid HTTP response code 204")
-    public void validateHttpResponseCode204(){
-        deleteOffice.validateHttpResponse204();
+    @Given("I set DELETE endpoints")
+    public void iSetDELETEEndpoints() { deleteOffice.iSetDELETEEndpoints();
     }
 
+    @When("I send DELETE HTTP request")
+    public void iSendDELETEHTTPRequest() { deleteOffice.iSendDELETEHTTPRequest();
+
+    }
+
+    @Then("I receive valid HTTP response code {int} in delete office")
+    public void iReceiveValidHTTPResponseCodeInDeleteOffice(int arg0) { deleteOffice.iReceiveValidHTTPResponseCodeInDeleteOffice(200);
+
+    }
 }

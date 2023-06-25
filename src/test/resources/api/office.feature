@@ -33,9 +33,10 @@ Feature: office
               When I send POST HTTP request with input invalid token for create
               Then I receive valid HTTP response code 401 to create
 
-  @deleteOffice
-  Scenario: DELETE - As admin I have be able to delete office
-    Given I set DELETE api endpoint
-    When I set DELETE HTTP request
-    Then I receive valid HTTP response code 204
+      @deleteOffice
+      Scenario: DELETE As an admin I have be able to delete existing office
+        Given I set DELETE endpoints
+        When I send DELETE HTTP request
+        Then I receive valid HTTP response code 200 in delete office
+
 
