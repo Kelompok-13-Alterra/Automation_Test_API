@@ -18,6 +18,8 @@ public class OfficeSteps {
 
     @Steps
     CreateOffice createOffice;
+    @Steps
+    DeleteOffice deleteOffice;
 
     @Given("I set GET endpoints")
     public void iSetGETEndpoints() {
@@ -99,4 +101,19 @@ public class OfficeSteps {
     @Then("I receive valid HTTP response code {int} to create")
     public void iReceiveValidHTTPResponseCodeToCreate(int arg0) { createOffice.iReceiveValidHTTPResponseCodeToCreate();
     }
+
+ // Masih error bagian set dll
+    @Given("I set DELETE api endpoint")
+    public void setDeleteApiEndpoints(){
+        deleteOffice.setDeleteApiEndpoints();
+    }
+    @When("I set DELETE HTTP request")
+    public void sendDeleteApiEndpoints(){
+        deleteOffice.sendDeleteHttpRequest();
+    }
+    @Then("I receive valid HTTP response code 204")
+    public void validateHttpResponseCode204(){
+        deleteOffice.validateHttpResponse204();
+    }
+
 }

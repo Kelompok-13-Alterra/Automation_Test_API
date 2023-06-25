@@ -5,30 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83aedfb8-f62a-4225-a113-8905f385d6cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Auth/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/CreateOffice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/GetListOffice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/GetOfficeDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Widget/GetDashboardWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Widget/GetOfficeWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Widget/GetRevenueWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Widget/GetUserWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/midtrans/MidTransactions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/AuthSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/MidTransactionSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/OfficeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/WidgetSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/api/authentication.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/api/midtransTransaction.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/api/office.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/api/widget.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/DeleteOffice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/UserSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/starter/user/Delete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/starter/user/Get.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/starter/user/Post.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/starter/user/Put.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/api/user.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/OfficeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/OfficeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/api/office.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/api/office.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +49,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Automation_Test_Web"
+    "last_opened_file_path": "D:/1) KULIAH/6) Studi Independen (Altera-QE)/GitHub-QE/Capstone_Project/Automation_Test_API"
   }
 }]]></component>
   <component name="RecentsManager">
