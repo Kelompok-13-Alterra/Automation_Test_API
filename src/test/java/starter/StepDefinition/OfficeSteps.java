@@ -22,12 +22,12 @@ public class OfficeSteps {
     @Steps
     DeleteOffice deleteOffice;
 
-    @Given("I set GET endpoints")
+    @Given("I set GET endpoints for List Office")
     public void iSetGETEndpoints() {
         getListOffice.GetApiEndpoint();
     }
-    @When("I send GET HTTP request")
-    public void iSendGETHTTPRequest() {
+    @When("I send GET HTTP request for List Office")
+    public void iSendGetHTTPRequest() {
         getListOffice.GetHttpRequest();
     }
     @Then("I receive valid HTTP response code {int}")

@@ -33,7 +33,7 @@ public class UserSteps {
 
 
 
-    @Given("I Set GET Endpoints")
+    @Given("I invalid set get endpoints")
     public void SetGetEndpoints(){
         getProfile.SetGetEndpoints();
     }

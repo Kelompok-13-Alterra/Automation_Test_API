@@ -1,4 +1,4 @@
-package starter.officebuddy.User;
+package starter.OfficeBuddy.User;
 
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;

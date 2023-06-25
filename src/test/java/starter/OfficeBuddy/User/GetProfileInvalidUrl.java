@@ -1,4 +1,4 @@
-package starter.officebuddy.User;
+package starter.OfficeBuddy.User;
 
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
@@ -8,7 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 public class GetProfileInvalidUrl {
     protected static String url = "https://api.officebuddy.space/api/v1";
 
-    @Step("I set get endpoints")
+    @Step("I invalid set get endpoints")
     public String setGETEndpoints(){
         return url + "/user/my";
     }
