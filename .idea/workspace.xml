@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83aedfb8-f62a-4225-a113-8905f385d6cd" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Auth/Login.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/CreateOffice.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/OfficeBuddy/Office/DeleteOffice.java" afterDir="false" />
@@ -23,13 +24,9 @@
       <change afterPath="$PROJECT_DIR$/src/test/resources/api/midtransTransaction.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/api/office.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/api/widget.feature" afterDir="false" />
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/starter/StepDefinition/UserSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/starter/user/Delete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/starter/user/Get.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/starter/user/Post.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/starter/user/Put.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/api/user.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,17 +63,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "D:/RestAssred"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Automation_Test_Web&quot;
+>>>>>>> Stashed changes
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="starter.user" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Automation_Test_API" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Automation_Test_API" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
