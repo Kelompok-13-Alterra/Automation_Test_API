@@ -1,11 +1,11 @@
-package starter.StepDefenition;
+package starter.StepDefinition;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
-import starter.officebuddy.User.*;
+import starter.OfficeBuddy.User.*;
 
 public class UserSteps {
     @Steps
