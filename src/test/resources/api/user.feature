@@ -2,9 +2,9 @@ Feature: user
 
   @user
   Scenario: Get As an User I have be able to get data of my profile
-    Given I Set GET Endpoints
-    When I Send GET HTTP Request
-    Then I Receive HTTP Response Code 200
+    Given I Set GET Endpoints my profile
+    When I Send GET HTTP Request my profile
+    Then I Receive HTTP Response Code 200 my profile
 
   Scenario: Get As an User I have not be able to get data of my profile if i use wrong bearer token
     Given I set GET Endpoints

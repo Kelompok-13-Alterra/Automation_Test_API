@@ -23,20 +23,20 @@ public class OfficeSteps {
     DeleteOffice deleteOffice;
 
     @Given("I set GET endpoints for List Office")
-    public void iSetGETEndpoints() {
-        getListOffice.GetApiEndpoint();
+    public void iSetGETEndpointsForListOffice() {
+        getListOffice.GetApiEndpointOfficeList();
     }
     @When("I send GET HTTP request for List Office")
-    public void iSendGetHTTPRequest() {
-        getListOffice.GetHttpRequest();
+    public void iSendGETHTTPRequestForListOffice() {
+        getListOffice.GetHttpRequestOfficeList();
     }
-    @Then("I receive valid HTTP response code {int}")
-    public void iReceiveValidHTTPResponseCode(int arg0) {
-        getListOffice.validateHttpResponseCode200();
+    @Then("I receive valid HTTP response code {int} for list office")
+    public void iReceiveValidHTTPResponseCodeForListOffice(int arg0) {
+        getListOffice.validateHttpResponseCode200OfficeList();
     }
-    @And("I receive valid data for all office")
-    public void iReceiveValidDataForAllOffice() {
-        getListOffice.validateDataDetailOffice();
+    @And("I receive valid data for list office")
+    public void iReceiveValidDataForListOffice() {
+        getListOffice.validateDataListOffice();
     }
     @Given("I set GET endpoints by id")
     public void iSetGETEndpointsById() {

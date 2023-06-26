@@ -1,5 +1,6 @@
 Feature: mid transaction
 
+  @transaction
   Scenario: GET - As admin I can see detail payment
     Given I set GET endpoints detail payment
     When I send GET HTTP request detail payment

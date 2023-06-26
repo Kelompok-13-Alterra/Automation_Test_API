@@ -1,10 +1,10 @@
 Feature: office
   @getListOffice
   Scenario: GET As an admin I can see List Office
-    Given I set GET endpoints
-    When I send GET HTTP request
-    Then I receive valid HTTP response code 200
-    And I receive valid data for all office
+    Given I set GET endpoints for List Office
+    When I send GET HTTP request for List Office
+    Then I receive valid HTTP response code 200 for list office
+    And I receive valid data for list office
 
     @getDetailOffice
     Scenario: GET As an admin I can see details office

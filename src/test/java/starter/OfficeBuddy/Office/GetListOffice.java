@@ -10,21 +10,20 @@ public class GetListOffice {
     protected static String url = "https://api.officebuddy.space/api/v1/";
 
     @Step("I set GET endpoints for List Office")
-    public String GetApiEndpoint(){
+    public String GetApiEndpointOfficeList(){
         return url + "office";
     }
     @Step("I send GET HTTP request for List Office")
-    public void GetHttpRequest(){
+    public void GetHttpRequestOfficeList(){
         SerenityRest.given().header("Authorization","Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluMUBnbWFpbC5jb20iLCJpZCI6MTMsImlzX3ZlcmlmeSI6ZmFsc2UsInJvbGUiOjF9.CVDdRQKKNo6YJsrBH3s90xj09e6-vGB9lSBld4bCWE0")
-                .get(GetApiEndpoint());
+                .get(GetApiEndpointOfficeList());
     }
-    @Step("I receive valid HTTP response code 200 for get detail payment")
-    public void validateHttpResponseCode200(){
-
+    @Step("I receive valid HTTP response code 200 for list office")
+    public void validateHttpResponseCode200OfficeList(){
         restAssuredThat(response -> response.statusCode(200));
     }
-    @Step("I receive valid data for all office")
-    public void validateDataDetailOffice(){
+    @Step("I receive valid data for list office")
+    public void validateDataListOffice(){
 
     }
 }

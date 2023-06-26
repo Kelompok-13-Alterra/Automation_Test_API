@@ -33,17 +33,17 @@ public class UserSteps {
 
 
 
-    @Given("I invalid set get endpoints")
-    public void SetGetEndpoints(){
-        getProfile.SetGetEndpoints();
+    @Given("I Set GET Endpoints my profile")
+    public void SetGETEndpointsMyProfile(){
+        getProfile.SetGetEndpointsProfile();
     }
-    @When("I Send GET HTTP Request")
-    public void SendHttppRequest(){
-        getProfile.SendHttppRequest();
+    @When("I Send GET HTTP Request my profile")
+    public void SendGETHTTPRequestMyProfile(){
+        getProfile.SendHttppRequestProfile();
     }
-    @Then("I Receive HTTP Response Code 200")
-    public void HTTPResponse200(){
-        getProfile.HTTPResponse200();
+    @Then("I Receive HTTP Response Code 200 my profile")
+    public void HTTPResponse200MyProfile(){
+        getProfile.HTTPResponse200Profile();
     }
 
 

@@ -10,7 +10,7 @@ public class MidTransactions {
 
     @Step("I set GET endpoints detail payment")
     public String GetApiEndpointDetailPayment(){
-        return url + "transaction/168/payment-detail";
+        return url + "transaction/414/payment-detail";
     }
     @Step("I set GET endpoints detail payment using invalid id")
     public String iSetGETEndpointsDetailPaymentUsingInvalidId(){ return url + "transaction/*90&7/payment-detail";
